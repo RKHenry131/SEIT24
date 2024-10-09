@@ -37,4 +37,8 @@ public class Home extends Page {
     return pageList.getText();
   }
 
+  public void openPage(String page){
+    driver.get(homePageUrl+page);
+  }
+
 }

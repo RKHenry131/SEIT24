@@ -25,5 +25,11 @@ public class HomePageSteps extends Context {
     Assertions.assertEquals(Utils.expectedPageList(), home.getListOfPages());
   }
 
+  @Given("the {string} example is opened")
+  public void thePageExampleIsOpened(String page) {
+    home.openPage(page);
+
+  }
+
 
 }
