@@ -1,4 +1,4 @@
-package io.cucumber.skeleton.Utils;
+package io.cucumber.skeleton.utils;
 
 public class Utils {
 
