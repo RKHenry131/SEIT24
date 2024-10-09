@@ -1,11 +1,14 @@
 Feature: The Internet
   This feature covers (some) Example pages on 'the-internet.herokuapp.com'
 
+  Background:
+    Given the page under test is 'https://the-internet.herokuapp.com'
+
   @TEST_TI_0001
   Scenario: Homepage has a list of links to Expected examples
-    Given the page under test is 'https://the-internet.herokuapp.com'
-    And an example Home Page step
-    And add other steps
+    Given I am on the Home Page
+    Then the displayed list of listed examples is as expected
+
 
 #  @TEST_TI_0001
 #  Scenario: Basic Auth allows validated access
