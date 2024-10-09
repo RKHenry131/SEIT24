@@ -2,7 +2,7 @@ package io.cucumber.skeleton.stepDefinitions;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.skeleton.Utils.Utils;
+import io.cucumber.skeleton.utils.Utils;
 import io.cucumber.skeleton.core.Context;
 import io.cucumber.skeleton.core.Manager;
 import io.cucumber.skeleton.pages.SortableDataTablePage;
