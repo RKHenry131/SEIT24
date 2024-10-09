@@ -1,12 +1,12 @@
-package io.cucumber.skeleton.glue;
+package io.cucumber.skeleton.stepDefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.skeleton.core.Context;
 import io.cucumber.skeleton.core.Manager;
 
-public class Home extends Context {
+public class HomePageSteps extends Context {
 
-  public Home(Manager manager) {
+  public HomePageSteps(Manager manager) {
     super(manager);
   }
 

@@ -1,12 +1,12 @@
-package io.cucumber.skeleton.glue;
+package io.cucumber.skeleton.stepDefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.skeleton.core.Context;
 import io.cucumber.skeleton.core.Manager;
 
-public class Navigation extends Context {
+public class NavigationSteps extends Context {
 
-  public Navigation(Manager manager) {
+  public NavigationSteps(Manager manager) {
     super(manager);
   }
 
