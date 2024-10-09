@@ -1,4 +1,4 @@
-package io.cucumber.skeleton.glue;
+package io.cucumber.skeleton.stepDefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.skeleton.core.Context;
