@@ -20,7 +20,7 @@ public class HomePageSteps extends Context {
     Assertions.assertEquals(Utils.getExpectedHomePageTitle(), home.getTitleText());
   }
 
-  @Then("the displayed list of listed examples is as expected")
+  @Then("the displayed list of examples is as expected")
   public void theDisplayedListOfListedExamplesIsAsExpected() {
     Assertions.assertEquals(Utils.expectedPageList(), home.getListOfPages());
   }

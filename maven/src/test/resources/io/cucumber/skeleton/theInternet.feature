@@ -7,7 +7,7 @@ Feature: The Internet
   @TEST_TI_0001
   Scenario: Homepage has a list of links to Expected examples
     Given I am on the Home Page
-    Then the displayed list of listed examples is as expected
+    Then the displayed list of examples is as expected
 
 
   @TEST_TI_0001
